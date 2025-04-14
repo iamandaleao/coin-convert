@@ -1,7 +1,7 @@
-<h1 align="center"> Projeto de Controle de Despesas </h1>
+<h1 align="center"> Conversor de Moedas </h1>
 
 <p align="center">
-Projeto desenvolvido durante as aulas na Rocketseat, com foco em JavaScript, voltado para manipulação do DOM e criação de um sistema funcional de controle de despesas.
+Projeto prático desenvolvido com HTML, CSS e JavaScript para treinar manipulação de formulários, eventos e lógica de conversão de valores em tempo real.
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@ Projeto desenvolvido durante as aulas na Rocketseat, com foco em JavaScript, vol
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="https://github.com/user-attachments/assets/e952e8a9-f233-462a-907f-b43edb0d1d70" width="100%">
+  <img alt="Preview do projeto desenvolvido." src="https://github.com/user-attachments/assets/88e159d5-14e5-48b3-b0bc-66b7b5ff50a1" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,23 +30,25 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto teve como objetivo aplicar na prática os conhecimentos em JavaScript para criar um sistema de controle de despesas. A proposta foi desenvolver um formulário interativo, com validações, listagem dinâmica e cálculo total de valores.
+Este projeto consiste em um conversor de moedas que recebe um valor em uma moeda estrangeira (como dólar, euro ou libra) e converte automaticamente para reais, exibindo o resultado formatado na tela.
 
-Durante o desenvolvimento, foram abordadas e aplicadas as seguintes funcionalidades:
+Durante o desenvolvimento, foram abordadas as seguintes práticas e conceitos:
 
-- Criação do arquivo `script.js` e integração com o HTML.
-- Captura do evento de input e validação para aceitar apenas números com expressões regulares.
-- Formatação automática do valor para o padrão de moeda brasileira (R$) com `toLocaleString`.
-- Captura e manipulação dos dados do formulário via evento `submit`.
-- Criação de objeto representando cada despesa adicionada.
-- Função para adicionar despesas à lista com tratamento de exceções.
-- Criação dinâmica de elementos HTML, incluindo nome, categoria, valor e ícones.
-- Exibição e atualização do total de despesas de forma automática.
-- Implementação de função para remover um item da lista ao clicar no ícone correspondente.
-- Limpeza dos campos do formulário após cada envio e foco automático no campo de entrada, melhorando a usabilidade.
+- Criação do arquivo `script.js` e organização correta do carregamento no HTML para otimizar o desempenho.
+- Captura do valor digitado em um campo de input e exibição no console para validação.
+- Utilização de expressões regulares para garantir que o campo aceite apenas números, aumentando a confiabilidade da entrada.
+- Captura da moeda selecionada pelo usuário através de um input tipo `select`, utilizando o evento de `submit`.
+- Implementação da função `convertCurrency`, com parâmetros para valor total, valor da moeda e símbolo correspondente.
+- Uso de `switch/case` para identificar a moeda e aplicar a conversão de forma dinâmica.
+- Exibição e ocultação do elemento `footer` de forma dinâmica com adição/remoção de classes CSS.
+- Manipulação do DOM para exibir o valor da cotação com interpolação de strings.
+- Criação de função personalizada para formatação de valores monetários no padrão brasileiro (R$), com `toLocaleString`.
+- Cálculo do valor total convertendo o valor e multiplicando pela cotação, exibindo o resultado formatado.
+- Testes práticos com diferentes moedas (dólar, euro, libra) para garantir o funcionamento completo da aplicação.
 
-Esse projeto foi uma excelente oportunidade para reforçar conhecimentos em lógica de programação, boas práticas com JavaScript e manipulação de elementos DOM, além de proporcionar uma base sólida para projetos mais avançados com foco em interatividade e experiência do usuário.
+O projeto reforça conceitos fundamentais de JavaScript como eventos, manipulação de elementos HTML, uso de funções reutilizáveis e tratamento de dados do formulário. Um ótimo exercício de integração entre lógica e interface.
 
 ## :memo: Licença
 
 Este projeto está sob a licença MIT.
+
