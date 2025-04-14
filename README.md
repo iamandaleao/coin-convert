@@ -51,4 +51,5 @@ O projeto reforça conceitos fundamentais de JavaScript como eventos, manipulaç
 ## :memo: Licença
 
 Este projeto está sob a licença MIT.
+<p align="right">Feito com ♥ by Amanda</p>
 
