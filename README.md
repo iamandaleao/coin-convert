@@ -17,7 +17,7 @@ Projeto prático desenvolvido com HTML, CSS e JavaScript para treinar manipulaç
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="https://github.com/user-attachments/assets/88e159d5-14e5-48b3-b0bc-66b7b5ff50a1" width="100%">
+  <img alt="Preview do projeto desenvolvido." src="https://github.com/user-attachments/assets/88e159d5-14e5-48b3-b0bc-66b7b5ff50a1" width="60%">
 </p>
 
 ## 🚀 Tecnologias
