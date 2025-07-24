@@ -1,7 +1,7 @@
 <h1 align="center"> Conversor de Moedas </h1>
 
 <p align="center">
-Projeto prático desenvolvido com HTML, CSS e JavaScript para treinar manipulação de formulários, eventos e lógica de conversão de valores em tempo real.
+Projeto prático desenvolvido com HTML, CSS e JavaScript para treinar manipulação de formulários, eventos e lógica de conversão de valores.
 </p>
 
 <p align="center">
